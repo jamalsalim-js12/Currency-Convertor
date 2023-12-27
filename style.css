@@ -71,6 +71,7 @@ form .FromToContainer {
     align-items: center;
     border-radius: 5px;
     justify-content: center;
+    border: none;
     border: 2px solid black;
 }
 
@@ -111,4 +112,17 @@ form button:active {
 
 form button:hover {
     filter: brightness(1.1);
+}
+
+@media screen and (max-width: 760px) {
+    select {
+        padding-left: 15px;
+        width: 315px;
+        color: black;
+        border: none;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
 }
